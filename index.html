@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI AVENTURA GRAFICA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #f5f0e8 0%, #e8dcc8 100%);
+            font-family: Georgia, serif;
+            color: #3d2f1f;
+        }
+        
+        .navbar {
+            background: #8b7355;
+            border-bottom: 3px solid #d4a574;
+        }
+        
+        .navbar-brand {
+            color: #f5f0e8;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+            margin: 0 auto;
+            display: block;
+            text-align: center;
+        }
+        
+        .navbar-nav {
+            margin: 0 auto;
+        }
+        
+        .nav-link {
+            color: #f5f0e8;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        
+        .nav-link:hover {
+            color: #ffd700;
+        }
+        
+        h1 {
+            font-family: Georgia, serif;
+            color: #8b4513;
+            font-size: 3rem;
+            text-align: center;
+            margin: 40px 0 30px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            border-bottom: 3px double #d4a574;
+            padding-bottom: 20px;
+        }
+        
+        h2 {
+            font-family: Georgia, serif;
+            color: #8b4513;
+            font-size: 2.5rem;
+            text-align: center;
+            margin: 50px 0 30px 0;
+            border-top: 2px solid #d4a574;
+            border-bottom: 2px solid #d4a574;
+            padding: 20px 0;
+            background: rgba(212, 165, 116, 0.1);
+        }
+        
+        h4 {
+            color: #a0522d;
+            font-size: 1.8rem;
+            margin-top: 40px;
+            border-left: 5px solid #cd853f;
+            padding-left: 15px;
+            background: rgba(255, 255, 255, 0.3);
+            padding: 10px 15px;
+        }
+        
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #4a3728;
+            margin: 20px 0;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 8px solid #8b7355;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            margin: 25px 0;
+            border-radius: 4px;
+        }
+        
+        iframe {
+            border: 10px solid #8b7355;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            border-radius: 4px;
+        }
+        
+        footer {
+            background: #6b5444;
+            color: #f5f0e8;
+            padding: 30px 0;
+            margin-top: 60px;
+            border-top: 3px solid #d4a574;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        
+        section {
+            background: rgba(255, 255, 255, 0.5);
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 8px;
+            border: 2px solid #d4a574;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid justify-content-center">
+            <a class="navbar-brand" href="#">MI AVENTURA GRAFICA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conceptualizacion">Conceptualización</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#estetica">Estética</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#programacion">Programación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#integrantes">Integrantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#juego">Jugar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        
+        <section id="inicio">
+            <h1>La Reina de las Nieves</h1>
+            <img src="imagenes/portada.png" alt="portada del juego" width="500" height="480">
+            <p>
+                En nuestra comisión, teníamos que hacer una aventura gráfica en base a un cuento clásico; a mí me tocó "La Reina de las Nieves" de Hans Christian Andersen. Esta historia nos habla sobre la importancia del amor y la amistad, y es uno de los relatos clásicos infantiles más reconocidos, llegando a inspirar miles de adaptaciones como "Frozen" de Disney.
+            </p>
+        </section>
+
+        <section id="conceptualizacion">
+            <h2>Conceptualización</h2>
+            <p>
+                Lo primero que hice, fue realizar nuestro diagrama de flujo generando los diferentes finales posibles y barajando las distintas decisiones disponibles para que el usuario pueda elegir su propio camino. En esta etapa, lo más difícil fue transformar y ramificar la narrativa original sin perder el hilo central de la historia.
+            </p>
+            <video autoplay loop muted width="100%">
+                <source src="imagenes/proc.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section id="estetica">
+            <h2>Estética</h2>
+            <p>
+              Para el tratamiento visual me inspiré en los libros infantiles de época y en grandes ilustradores que dieron vida a personajes como "Petter Rabbit", o "Alicia en el País de las Maravillas". En comunicación con la IA, le pedí que genere imágenes en tonos sepia y desgastados, con un estilo ornamental, detallado, pero tan expresivo como sencillo para un niño de interpretar.
+            </p>
+            <img src="imagenes/uno.png" alt="foto de la estética" width="500" height="500">
+        </section>
+
+        <section id="integrante">
+            <h2>Integrantes</h2>
+            
+            <img src="imagenes/yo.png" alt="foto de integrante" width="400" height="200">
+            <p>
+                Hola, soy Lina Alonso Citón. Al comenzar el proyecto me resultó tedioso y complejo abordarlo, pero luego, al momento de definir una identidad visual y comenzar a darle forma al relato, me entretuve moldeando la historia, geerando escenarios, y jugando con mi propia aventura gráfica.
+            </p>
+        </section>
+
+        <section id="juego" class="text-center">
+            <h2>Juga la Aventura Gráfica</h2>
+            <iframe src="http://127.0.0.1:8749/" width="640" height="480"></iframe>
+        </section>
+
+        <footer class="text-center">
+            <h6>Un sitio de prueba para tecnologías web de HTML, CSS y Bootstrap</h6>
+            <p>Aventura Gráfica Interactiva - Lina Alonso Citón</p>
+        </footer>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
